@@ -1,0 +1,49 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .breadcrumb {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .search-input {
+    width: 200px;
+  }
+  
+  .header-icons .anticon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .username {
+    margin-left: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  
